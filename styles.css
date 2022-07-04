@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2 {
     font-weight: bold;
     color: #9AAB8D;
     text-shadow: 1px 1px 2px #999;
+}
+h2{
+    margin-bottom: 50px;
 }
 
 .header {
@@ -39,4 +42,28 @@ h1 {
     margin-top: 30px;
     border-radius: 10%;
     box-shadow: 1px 1px 3px #999;
+    margin-bottom: 50px;
+}
+
+.info__body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.book__selection{
+   max-width: 700px;
+   display: flex;
+}
+.book-img {
+    max-width: 100px;
+    margin: 10px 30px;
+}
+.fivestarwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fivestars{
+    margin: 0 30px;
 }
