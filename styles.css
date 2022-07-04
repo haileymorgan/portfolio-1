@@ -9,12 +9,14 @@
 h1 {
     font-weight: bold;
     color: #9AAB8D;
+    text-shadow: 1px 1px 2px #999;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    margin-bottom: 80px;
 }
 
 .nav__list {
@@ -26,4 +28,15 @@ h1 {
     text-decoration: none;
     margin-left: 20px;
     color: #9AAB8D;
+}
+.landing {
+    max-width: 80%;
+    padding: 24px;
+    text-align: center;
+}
+.landing-img {
+    max-width: 400px;
+    margin-top: 30px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 3px #999;
 }
