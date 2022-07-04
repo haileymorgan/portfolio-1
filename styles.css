@@ -1,3 +1,29 @@
 * {
-    color: crimson;
+    font-family: 'Finlandica', sans-serif;
+    background-color: #DBF8F4;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    color: #9AAB8D;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #9AAB8D;
 }
