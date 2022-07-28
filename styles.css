@@ -100,6 +100,9 @@ a {
     margin-bottom: 20px;
     border-radius: 4px;
 }
+button:active {
+    transform: translateY(1px);
+}
 .infopara {
     max-width: 600px;
     text-align: center;
