@@ -1,10 +1,10 @@
 * {
     font-family: 'Finlandica', sans-serif;
-    background-color: #9b9003;
+    background-color: #d9d9d9;
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
-    color: #feed19;
+    color: black;
     text-shadow: 1px 1px 2px #313027;
     scroll-behavior: smooth;
 }
@@ -45,7 +45,7 @@ a {
     padding: 6px;
 }
 .nav__link--primary {
-    border: 2px solid #feed19;
+    border: 2px solid black;
     border-radius: 4px;
 }
 .nav__link:hover {
@@ -112,4 +112,33 @@ button:active {
 .pagebottom{
     display: flex;
     margin: 40px;
+}
+
+/* page two css */
+.searchbar input[type=text] {
+    display: flex;
+    margin-top: 32px;
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 17px;
+    background-color: antiquewhite;
+}
+
+.BackToMain {
+display: flex;
+margin-top: 42px;
+}
+.BackToMain:hover {
+    text-decoration: underline;
+}
+.about_para {
+    max-width: 500px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
+.About_Header {
+    display: flex;
+    flex-direction: column;
 }
