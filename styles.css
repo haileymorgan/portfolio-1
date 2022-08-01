@@ -5,11 +5,12 @@
     margin: 0 auto;
     box-sizing: border-box;
     color: black;
-    text-shadow: 1px 1px 2px #313027;
+    text-shadow: 1px 1px 2px #f7f7f5;
     scroll-behavior: smooth;
+    max-width: 1200px;
 }
 h1, h2 {
-    font-weight: bold;
+    font-weight: bolder;
 }
 .logo_topper {
     font-size: 42px;
@@ -17,14 +18,14 @@ h1, h2 {
 }
 
 p {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 18px;
 }
 .header {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     max-width: 1200px;
 }
 .main {
@@ -60,11 +61,8 @@ a {
     text-align: center;
 }
 .landing-img {
-    max-width: 400px;
+    max-width: 450px;
     margin-top: 30px;
-    border-radius: 10%;
-    box-shadow: 1px 1px 3px #313027;
-    margin-bottom: 50px;
 }
 
 .info__body{
@@ -117,28 +115,44 @@ button:active {
 /* page two css */
 .searchbar input[type=text] {
     display: flex;
-    margin-top: 32px;
+    margin-top: 55px;
     padding: 6px;
     border: 1px solid black;
+    border-radius: 4px;
     font-size: 17px;
     background-color: antiquewhite;
+    min-width: 100px;
 }
 
 .BackToMain {
 display: flex;
 margin-top: 42px;
+margin-bottom: 30px;
 }
 .BackToMain:hover {
     text-decoration: underline;
 }
 .about_para {
     max-width: 500px;
-    margin-top: 60px;
     border: 2px solid black;
     border-radius: 4px;
     padding: 10px;
+    background-color: rgb(196, 194, 192);
 }
 .About_Header {
     display: flex;
     flex-direction: column;
+}
+.hipster_bear {
+    margin-top: 30px;
+    max-width: 400px;
+    display: flex;
+}
+.bear3 {
+    display: flex;
+    max-width: 300px;
+    margin-top: 30px;
+}
+.browse_footer {
+    margin-top: 310px;
 }
